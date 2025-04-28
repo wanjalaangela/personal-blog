@@ -1,0 +1,566 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: nunito;
+    src: url(fontsAndImages/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: ku;
+    src: url(fontsAndImages/Kurale-Regular.ttf);
+}
+
+@font-face {
+    font-family: script;
+    src: url(fontsAndImages/StyleScript-Regular.ttf
+);
+}
+
+@font-face {
+    font-family: prof;
+    src: url(fontsAndImages/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+.navigations {
+    font-family: nunito;
+    position: absolute;
+    top: -1.7vh;
+    z-index: 2;
+    width: 100vw;
+    position: fixed;
+
+}
+
+.advert {
+    text-align: center;
+    height: 4vh;
+    background-color: #012326;
+    color: white;
+    padding: 0.2%;
+
+    p {
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: #e3e4b8;
+    }
+}
+
+
+
+nav {
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13vw;
+    background-color: white;
+
+    img {
+        height: 70px;
+    }
+
+    a {
+        margin-left: 5%;
+        text-decoration: none;
+        color: rgb(175, 42, 42);
+        font-size: large;
+
+    }
+
+}
+
+.button {
+    cursor: pointer;
+    position: fixed;
+    right: 4vw;
+    color: #012326;
+    width: 7vw;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: #A61F2B;
+}
+
+nav a:hover {
+    color: #234457;
+}
+
+.nav-links {
+    width: 50%;
+}
+
+/*  */
+.body-section{
+
+    width: 40vw;
+    margin: 30vh auto;
+}
+.profile{
+    font-family: nunito;
+    align-items: center;
+    display: flex;
+    img{
+        border-radius: 50vw;
+        width: 50px;
+    }
+    gap: 1vw;
+    
+ }
+ .reflections{
+    font-size: 18px;
+    font-family: ku;
+    color: rgb(73, 71, 71);
+ }
+.blog{
+    h2{
+        text-decoration: underline;
+        font-size: xx-large;
+        font-family: nunito;
+        color: #A61F2B;
+
+    }
+    p{
+        font-family: ku;
+        color: rgb(48, 46, 46);
+    }
+}
+.blog-image{
+    width: 40vw;
+    h2{
+        font-size: xx-large;
+        font-family: nunito;
+        color: #A61F2B;
+    }
+    img{
+        width: 40vw;
+    }
+}
+.blog-info{
+    h3{
+        font-size: x-large;
+        font-family: nunito;
+        color: #234457;
+    }
+    p{
+        width: 40vw;
+    }
+}
+.excerpt{
+    padding: 5vw;
+    background-color: #e3e4b8;
+    text-align: center;
+    font-family: ku;
+    p{
+        width: 30vw;
+        font-family: ku;
+    }
+}
+.fa-brands{
+    text-align: center;
+    font-size: 1.5em;
+  
+ }
+ .fa-brands{
+    text-align: center;
+    font-size: 1.5em;
+  
+ }
+ .hr-line{
+    position: relative;
+    max-width: 100%;
+    margin: 30px auto;
+    height: 1px;
+    background-color: black;
+ }
+ .fa-brands{
+    text-align: center;
+    font-size: 1.5em;
+  
+ }
+ .hr-line{
+    position: relative;
+    max-width: 100%;
+    margin: 30px auto;
+    height: 1px;
+    background-color: black;
+ }
+ 
+ 
+
+ .socials{
+    display: flex;
+    gap: 3em;
+   margin-left: 25em;
+ }
+ .fa-brands{
+    text-align: center;
+    font-size: 1.5em;
+  
+ }
+ .hr-line{
+    position: relative;
+    max-width: 100%;
+    margin: 30px auto;
+    height: 1px;
+    background-color: black;
+ }
+ .socials{
+    display: flex;
+    gap: 3em;
+   margin-left: 25em;
+ }
+ 
+ 
+ 
+ 
+ .new-title{
+    display: flex;
+    gap: 10%;
+    text-align: center;
+    font-size: x-large;
+ 
+ 
+ }
+ #title{
+    text-align: center;
+    font-size: 50px;
+ }
+ .sub-title{
+    margin-top: 10%;
+ }
+ .reason{
+    border: 3px solid;
+    margin-top: 7em;
+ }
+ .blog{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+  
+}
+.blog p{
+    font-size: 15px;
+    font-style: italic;
+ }
+ 
+ 
+ .likeOurPage{
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    align-items: center;
+    font-family: ku;
+ }
+ .likeOurPage a{
+    text-decoration: none;
+    color: #A61F2B;
+    font-size: small;
+ }
+ .likeOurPage a :hover{
+    background-color: orange;
+    cursor: pointer;
+ }
+ #comment{
+    font-size: 2em;
+    text-align: center;
+ }
+ #input{
+width: 40vw;
+    text-align: center;
+    padding: 2em;
+  
+ }
+ #submit{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5em;
+    width: 13em;
+    background-color: #234457;
+    border: none;
+    border-radius: 1em;
+    margin-top: 5em;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+   
+ }
+ #submit:hover{
+    background-color: #A61F2B;
+    color: white
+ }
+ 
+
+
+ 
+footer {
+    padding-top: 3vh;
+    height: 35vh;
+    width: 100vw;
+    background-color: #17242b;
+
+    a {
+        color: white;
+        font-size: small;
+    }
+
+    h2 {
+        font-size: xxx-large;
+        color: white;
+        text-align: center;
+    }
+
+}
+
+#socials {
+    width: 35vw;
+    position: absolute;
+    gap: 4%;
+    left: 50%;
+    padding-top: 33vh;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+form{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50vw;
+    padding-top: 10vh;
+    font-size: large;
+    color: white;
+}
+.join-us input{
+    margin-top: 2vh;
+    width: 25vw;
+    height: 5vh;
+}
+.join-us button{
+    cursor: pointer;
+    width: 10vw;
+    height: 5vb;
+}
+.join-us button:hover{
+    background-color: #234457;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+ 
+
+ @media screen and (max-width: 500px) {
+    body{
+        margin: 0;
+        overflow-x: hidden;
+   
+    }
+   
+    .body-section{
+        width: 100%;
+        margin: 0;
+    }
+    nav {
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        position: fixed;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        background-color: white;
+        img {
+            height: 70px;
+        }
+        a {
+            margin-left: 2%;
+            text-decoration: none;
+            color: rgb(175, 42, 42);
+            font-size: large;
+        }
+    }
+    nav button {
+        cursor: pointer;
+        position: absolute;
+        right: 4vw;
+        height: 8.2vw;
+        border-radius: 9px;
+        border: 2px solid;
+        color: white;
+        background-color: #234457;
+        width: 15vw;
+        left: 5%;
+        top: 120%;
+    }
+    nav button:hover {
+        background-color: transparent;
+        color: #A61F2B;
+    }
+    nav a:hover {
+        color: #234457;
+    }
+    .nav-links {
+        width: 50%;
+    }
+    .fa-brands{
+        text-align: center;
+        font-size: 1.5em;
+      
+    }
+    .hr-line{
+        position: relative;
+        max-width: 100%;
+        margin: 30px auto;
+        height: 1px;
+        background-color: black;
+    }
+   
+    .profile{
+        margin-top: 25vh;
+        align-items: center;
+        display: flex;
+     
+        img{
+            width: 50px;
+        }
+    }
+    .socials{
+        display: flex;
+        gap: 3em;
+       margin: 0;
+    }
+   
+   
+    .new-title{
+        flex-direction: column;
+           gap: 10%;
+           text-align: center;
+           font-size: x-large;
+      
+       }
+       #title{
+           text-align: center;
+           font-size: 50px;
+       }
+       .sub-title{
+           margin-top: 10%;
+       }
+       .reason{
+           border: 3px solid;
+           margin-top: 7em;
+       }
+       .blog{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 200;
+       
+    }
+    .blog p{
+        font-size: 15px;
+        font-style: italic;
+    }
+   
+    .likeOurPage{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.25em;
+    }
+    .likeOurPage a{
+        text-decoration: none;
+        color: brown;
+    }
+    .likeOurPage a :hover{
+        background-color: orange;
+        /* cursor: pointer; */
+    }
+   
+    .top-image img{
+        width: 100%; height: 32em;
+        margin-top: 3em;
+    }
+    .top-image h2{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        top: 90%; left: 50%;
+        color: white;
+        font-size: 4em;
+    }
+    .blog-info{
+        flex-direction: column;
+        gap: 2em;
+ 
+ 
+             h3{
+            text-align: center;
+        }
+   
+    }
+    .excerpt{
+        font-style: italic;
+        font-size: 1.5em;
+        margin-top: 2em;
+ 
+ 
+      
+    }
+   
+    #comment{
+        font-size: 1em;
+        color: blue;
+        text-align: center;
+    }
+    #input{
+        width: 80%;
+        text-align: center;
+        padding: 3em;
+      
+    }
+    #submit{
+        padding: 1.5em;
+        width: 13em;
+        background-color: #234457;
+        border: none;
+        border-radius: 1em;
+        margin-top: 2em;
+        text-align: center;
+        cursor: pointer;
+       
+    }
+    #submit:hover{
+        background-color: #A61F2B;
+        color: navy;
+    }
+ }
